@@ -1,0 +1,7 @@
+.social-media-box {
+    border-radius: 53px;
+    border: .8px solid rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px)
+}

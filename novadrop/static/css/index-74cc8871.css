@@ -1,0 +1,120 @@
+.landing-container {
+    position: relative;
+    background: url(/novadrop/images/landing.jpg) 50%/cover no-repeat;
+    height: 100vh
+}
+
+@media screen and (min-width: 768px) {
+    .landing-container {
+        min-height: 800px;
+        min-width: 1280px;
+        overflow: auto
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .landing-container {
+        width: 100vw;
+        min-width: 360px;
+        overflow-x: hidden;
+        overflow-y: auto
+    }
+}
+
+.landing-container .banner {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background-color: #002845;
+    color: #fff;
+    text-align: center;
+    font-family: Actor;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .96px;
+    z-index: 9
+}
+
+.landing-container .main-content {
+    position: relative;
+    height: calc(100vh - 260px);
+    min-height: 500px;
+    overflow: auto
+}
+
+@media screen and (max-width: 767px) {
+    .landing-container .main-content {
+        height: auto;
+        min-height: calc(100vh - 240px)
+    }
+}
+
+.landing-container .main-content .title .title-main {
+    color: #03d498;
+    text-align: center;
+    font-family: Chakra Petch;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .46px
+}
+
+.landing-container .main-content .title .title-desc {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.landing-container .main-content .btn-box .btn {
+    text-align: center;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 12px;
+    cursor: pointer
+}
+
+.landing-container .main-content .btn-box .btn.btn-green {
+    color: #3e3e3e;
+    background: #03d498
+}
+
+.landing-container .main-content .btn-box .btn.btn-dark {
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px)
+}
+
+.landing-container .link-underline {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-bottom: .4px solid #fff;
+    cursor: pointer
+}
+
+.eligibility-criteria-dialog .dialog-title {
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1)
+}
+
+.eligibility-criteria-dialog .confirm-btn {
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+@media screen and (max-width: 767px) {
+    .dialog-content {
+        max-height: 560px;
+        overflow: auto
+    }
+}
